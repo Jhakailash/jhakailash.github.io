@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
            I am <span className="purple"> Kailash Jha </span>
             from <span className="purple"> Kolkata, India.</span>
-            <br />I have completed my graduation in MERN stack Web - Development from Masai School
+            <br />I have completed my graduation in Full - Stack Web Development from Masai School
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Songs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Drawing
             </li>
           </ul>
 

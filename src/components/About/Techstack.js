@@ -22,6 +22,7 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
@@ -47,15 +48,9 @@ function Techstack() {
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiChakraui />
       </Col>
+
     </Row>
   );
 }
