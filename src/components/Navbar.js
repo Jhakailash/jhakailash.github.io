@@ -85,7 +85,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                
-                href="https://drive.google.com/file/d/142CD5MEZVEavZx8NVKg8vf_XQLlPZ899/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BsG9ZxBvAco-8TkAEnkHF2JtFLI7SNT_/view?usp=sharing"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
