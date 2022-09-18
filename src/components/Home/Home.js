@@ -1,13 +1,24 @@
-import React from "react";
+import React, {useRef} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import About from "../About/About";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Projects from "../Projects/Projects"
+import Contact from "../Contact/Contact";
+// import { Link } from "react-scroll";
+
+
 
 function Home() {
+  const bottomRef = useRef(null);
+  const setscrool = ()=>{
+    console.log(bottomRef.current)
+  }
   return (
     <section>
+
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -41,9 +52,16 @@ function Home() {
           </Row>
         </Container>
       </Container>
+
       <Home2 />
+      <About  />
+      <Projects />
+      <Contact />
     </section>
   );
 }
 
 export default Home;
+
+
+
