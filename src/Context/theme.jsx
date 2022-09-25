@@ -1,13 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+
+
+
+
 const ThemeContext = React.createContext();
+
+
 
 const ThemeProvider = ({ children }) => {
 
   const [themename, setthemename] = React.useState("light");
   const toggeltheme = () => {
-    themename === "light" ? setthemename("dark") : setthemename("light");
+  themename === "light" ? setthemename("dark") : setthemename("light");
 
   };
 
@@ -23,5 +29,7 @@ const ThemeProvider = ({ children }) => {
 ThemeProvider.propTypes = {
   children: PropTypes.node.isRequired
 };
+
+
 
 export { ThemeProvider, ThemeContext };

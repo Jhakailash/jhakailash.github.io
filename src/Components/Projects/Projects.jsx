@@ -1,26 +1,15 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-  SiBootstrap,
-  SiChakraui,
-  SiReact,
-} from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+import { FaReact} from "react-icons/fa";
+import {
+  SiHtml5,
+  SiJavascript,
+  SiChakraui,
+} from "react-icons/si";
+
+
+
 
 
 
@@ -36,9 +25,10 @@ export const Projects = () => {
       <br />
       <br />
       
-        <h2 className="section__title different">Projects</h2>
+        <h2 className="section__title different">Projects 📄</h2>
         <p className="section__title different">recently worked on:-</p>
         <div className="allProjects">
+
 {/* 1st */}
 
 <div className="projects_container" data-aos="fade-right">
@@ -62,6 +52,7 @@ export const Projects = () => {
                   <FaReact/>
                   <SiChakraui/>
                 </div>
+
                 <div>
                   <a
                     href="https://nordstrom-one.vercel.app/"

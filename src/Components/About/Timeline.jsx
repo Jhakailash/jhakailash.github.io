@@ -1,15 +1,16 @@
 import React from "react";
 import "./Timeline.css";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import {VerticalTimeline,VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
-import StarRateIcon from "@material-ui/icons/StarRate";
 import { ThemeContext } from "../../Context/theme";
+
+
+
+
+
+
 
 
 export const Timeline = () => {
@@ -25,21 +26,25 @@ export const Timeline = () => {
       setlinecolor("#23283e");
     }
   }, [themename]);
+
+
+
   return (
     <>
       <div className="section mainsection">
 
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Timeline 💫</span>
+          My <span className="different">Timeline 🕙</span>
         </h2>
 
         <VerticalTimeline lineColor={linecolor}>
           
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"Jan 2021 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
+              borderRadius:"15px",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
@@ -48,6 +53,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
+              
               border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
@@ -72,11 +78,13 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
 
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
+            date={"March 2017 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius:"15px",
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -117,9 +125,10 @@ export const Timeline = () => {
           
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2017"}
+            date={"April 2015"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius:"15px",
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -152,14 +161,6 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
 
-          {/* <VerticalTimelineElement  
-            icon={<StarRateIcon />}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-          ></VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </>

@@ -7,6 +7,7 @@ import profilePic from "../../assets/my_image.png";
 
 
 
+
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -24,13 +25,14 @@ export const Introduction = () => {
                 
           <h2 className="section__title">
 
-            About <span className="different">Me</span>
+            About <span className="different">Me 👨‍💻</span>
             
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               <img src={profilePic} alt="Images" />
             </div>
+
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
@@ -49,8 +51,10 @@ export const Introduction = () => {
                 <span className="different">Masai School</span> a military type
                 coding school.
               </h4>
+
               <br />
               <br />
+
               <h4>Apart from coding, some other activities that I love to do!</h4>
               <h4 className="different">
                 <span className="icons">
@@ -72,7 +76,9 @@ export const Introduction = () => {
               </h4>
               
              
-                   <br/> <br/>
+                   <br/> 
+                   <br/>
+                   
               <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>

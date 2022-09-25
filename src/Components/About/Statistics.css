@@ -1,0 +1,73 @@
+.main {
+    margin-top: 3em;
+  }
+
+  .statistics_number{
+    color: #2978b5;
+  }
+
+  .my_statistics {
+    width: 100%;
+    text-align: center;
+    background-color: var(--clr-bg);
+    
+    height: 28vh;
+    
+  }
+  
+  .my_statistics > div {
+    cursor: pointer;
+    width: 15%;
+    gap: 10px;
+    height: 30vh;
+    text-align: center;
+    max-height: 140px;
+    box-shadow: var(--shadow);
+    z-index: 1;
+    border-radius: 90px;
+    margin: 2.5%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    box-shadow: #2978b5 0px 0px 0px 2px inset,  rgb(31, 193, 27) 10px -10px;
+  }
+
+  .my_statistics > div:hover {
+    background-color: var(--clr-bg);
+    overflow: hidden;
+    transform: scale(1.2);
+    color: green;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3)
+     0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: none;
+  }
+  
+  .my_statistics > div > svg {
+    font-size: 8vh;
+    color: var(--clr-primary);
+  }
+  
+  
+  .my_statistics > div > h5 {
+    position: relative;
+    top: 8px;
+    background-color: transparent;
+  }
+  
+  @media (max-width: 600px) {
+    .my_statistics {
+      height: 68vh;
+          
+    }
+    .my_statistics > div {
+      width: 42%;
+      margin-right: 5%;
+      margin-bottom: 2%;
+      height: 18vh;
+    }
+
+  }
+  

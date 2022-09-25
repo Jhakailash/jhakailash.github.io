@@ -2,24 +2,34 @@ import React from "react";
 import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { BsInstagram, BsFillTelephoneFill,BsTwitter } from "react-icons/bs";
+import {BsFillTelephoneFill,BsTwitter } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
-
 import { FaLinkedin } from "react-icons/fa";
+
+
+
+
+
+
+
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
+
+
 
   return (
     <>
       <div className="section">
+
         <br />
         <br />
         <br />
         <br />
         
         <h2 className="section__title" data-aos="fade-right">
-          Get in <span className="different">Touch</span>
+          Get in <span className="different">Touch 📱</span>
         </h2>
+        
         <div className="contactMain">
           <div
             className={"contactcontainer " + themename}

@@ -7,6 +7,11 @@ import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 
 
+
+
+
+
+
 export const Navbar = () => {
 
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -21,6 +26,8 @@ export const Navbar = () => {
     }
     setShowNavList(!showNavList);
   };
+
+
   return (
     
     <>
@@ -38,6 +45,8 @@ export const Navbar = () => {
               Home
             </a>
           </li>
+
+
           <li className="nav__list-item">
             <a
               href="#about"
@@ -47,6 +56,8 @@ export const Navbar = () => {
               About
             </a>
           </li>
+
+
           <li className="nav__list-item">
             <a
               href="#skills"
@@ -56,6 +67,9 @@ export const Navbar = () => {
               Skills
             </a>
           </li>
+
+
+
           <li className="nav__list-item">
             <a
               href="#projects"
@@ -65,6 +79,8 @@ export const Navbar = () => {
               Projects
             </a>
           </li>
+
+
           <li className="nav__list-item">
             <a
               href="#contact"
@@ -74,18 +90,10 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          {/* <li className="nav__list-item">
-            <a
-              href="https://medium.com/@iamprabhat18"
-              onClick={toggleNavList}
-              className="link link--nav"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Blogs
-            </a>
-          </li> */}
+          
         </ul>
+
+
         <button
           type="button"
           onClick={toggeltheme}
@@ -95,6 +103,8 @@ export const Navbar = () => {
         >
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>
+
+
         <button
           type="button"
           onClick={toggleNavList}
@@ -103,6 +113,7 @@ export const Navbar = () => {
         >
           {showNavList ? <CloseIcon /> : <MenuIcon />}
         </button>
+        
       </nav>
     </>
   );

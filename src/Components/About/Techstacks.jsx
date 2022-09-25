@@ -2,6 +2,9 @@ import React from "react";
 import "./Techstacks.css";
 import { FaReact } from "react-icons/fa";
 import { GiSettingsKnobs } from "react-icons/gi";
+import { DiCss3, DiVisualstudio, DiNodejs } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
+import { VscGithub } from "react-icons/vsc";
 import {
   SiRedux,
   SiHtml5,
@@ -10,10 +13,10 @@ import {
   SiPostman,
   
 } from "react-icons/si";
-import { DiCss3, DiVisualstudio, DiWindows ,DiNodejs,  } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
+
+
+
+
 
 export const Techstacks = () => {
   return (
@@ -24,10 +27,8 @@ export const Techstacks = () => {
         <br />
         <br />
         <br />
-        
-          
-        
-        <h2 className="section__title different">Skills</h2>
+                          
+        <h2 className="section__title different">Skills 📜</h2>
         <div className="techsection">
           <div>
             <SiJavascript />
@@ -92,4 +93,5 @@ export const Techstacks = () => {
       </div>
     </>
   );
+  
 };

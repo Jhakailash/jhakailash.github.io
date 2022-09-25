@@ -20,7 +20,7 @@
   height: 90%;
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  /* border: 2px solid var(--clr-primary); */
+  
 }
 
 .introduction_logocontainer > img:hover {
@@ -28,7 +28,7 @@
   height: 92%;
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  /* border: 2px solid var(--clr-primary); */
+  
 }
 
 .introduction_datacontainer {
@@ -62,17 +62,20 @@
     flex-direction: column;
     margin-top: 2em;
   }
+
   .introduction_logocontainer {
     margin-bottom: 3em;
     flex-basis: 30%;
   }
+
   .introduction_logocontainer > img {
     width: 70%;
     height: 120%;
     border-radius: 10px;  
     border-radius: 10%;
-    /* border: 2px solid var(--clr-primary); */
+   
   }
+  
   .introduction_datacontainer {
     padding-left: 10%;
     padding-right: 10%;

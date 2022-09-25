@@ -3,6 +3,17 @@
   bottom: 2em;
   right: 1em;
   background-color: transparent;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  border-radius: 16px;
+}
+
+.scroll-top:hover {
+  position: fixed;
+  bottom: 2em;
+  right: 1em;
+ 
+  box-shadow: rgb(11, 116, 236) 0px 0px 0px 3px;
+  border-radius: 20px;
 }
 
 @media (max-width: 900px) {
