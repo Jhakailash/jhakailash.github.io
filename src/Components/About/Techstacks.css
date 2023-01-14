@@ -1,0 +1,67 @@
+.main {
+  margin-top: 4em;
+}
+
+.techsection {
+  width: 100%;
+  text-align: center;
+  background-color: var(--clr-bg);
+  height: 50vh;
+  
+}
+
+.techsection > div {
+  cursor: pointer;
+  width: 11%;
+  height: 17vh;
+  max-height: 140px;
+  /* box-shadow: var(--shadow); */
+  z-index: 1;
+  border-radius: 20px;
+  margin: 2.5%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  /* border: 2px solid var(--clr-primary); */
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  background-color:white;
+  color: black;
+}
+
+.techsection > div:hover {
+  /* background-color: var(--clr-bg); */
+  border: 2px solid var(--clr-primary);
+  /* overflow: hidden; */
+  transform: scale(1.1);
+  border: 2px solid green;
+  border: none;
+}
+
+.techsection > div > svg {
+  font-size: 8vh;
+  color: var(--clr-primary);
+}
+
+
+.techsection > div > h5 {
+  position: relative;
+  top: 8px;
+  background-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .techsection {
+    height: 120vh;
+  }
+  
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
+
+}

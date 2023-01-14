@@ -1,0 +1,121 @@
+.main {
+    margin-top: 3em;
+  }
+
+  .statistics_number{
+    color: #2978b5;
+    
+  }
+
+  .my_statistics {
+    width: 100%;
+    text-align: center;
+    height: 28vh;
+    /* margin-top: 5px; */
+    /* border: 1px solid white; */
+  }
+  
+  .my_statistics > div {
+    cursor: pointer;
+    width: 14%;
+    gap: 10px;
+    height: 30vh;
+    text-align: center;
+    max-height: 140px;
+    /* box-shadow: var(--shadow); */
+    z-index: 1;
+    border-radius: 15px;
+    margin: 2.5%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    box-shadow: #2978b5 0px 0px 0px 2px inset, ;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    /* border: 2px solid rgb(9, 9, 220); */
+  }
+
+  .my_statistics > div:hover {
+    /* background-color: var(--clr-bg); */
+    overflow: hidden;
+    transform: scale(1.2);
+    color: green;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3)
+     0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    border: none;
+    /* background-color: rgb(29, 4, 54); */
+    color: black;
+  }
+  
+  .my_statistics > div > svg {
+    font-size: 8vh;
+    color: var(--clr-primary);
+  }
+  
+  
+  .my_statistics > div > h5 {
+    position: relative;
+    top: 8px;
+    background-color: transparent;
+  }
+
+  .gitStatistics_main{
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid rgb(230, 222, 222); */
+    margin-top: 7%;
+    height: 250%;
+    gap: 15px;
+    
+  }
+  .gitStatistics{
+    width: 100%;
+    /* border: 2px solid rgb(171, 27, 27); */
+    height: 250px;
+    gap: 10px;
+    /* border-radius: 20px; */
+  }
+  .gitStatistics:hover{
+    width: 102%;
+    /* border: 2px solid rgb(171, 27, 27); */
+    /* height: 256px; */
+    /* gap: 8px; */
+    cursor: pointer;
+    /* border-radius: 20px; */
+  }
+  
+  .gitStatistics_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .my_statistics {
+      height: 68vh;
+          
+    }
+    .my_statistics > div {
+      width: 42%;
+      margin-right: 5%;
+      margin-bottom: 2%;
+      height: 18vh;
+    }
+    .gitStatistics_main{
+      display: block;
+      /* gap: 2px; */
+      
+    }
+    .gitStatistics{
+      height: 175px;
+  }
+    
+
+  }
+  

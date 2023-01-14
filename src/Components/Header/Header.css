@@ -1,0 +1,24 @@
+.header {
+  height: 8em;
+  max-width: 827px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 3em;
+    width: 100px;
+    font-size: 24px;
+  }
+}
+
+img{
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  margin-right: 8px;
+  
+}
