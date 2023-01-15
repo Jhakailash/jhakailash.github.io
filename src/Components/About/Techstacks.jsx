@@ -10,7 +10,6 @@ import {
   SiHtml5,
   SiTypescript,
   SiChakraui,
-  SiMongodb,
   
 } from "react-icons/si";
 
@@ -21,15 +20,15 @@ import {
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      <div className="section main">
       
         <br />
         <br />
         <br />
         <br />
                           
-        <h2 className="section__title different">Skills 📜</h2>
-        <div className="techsection">
+        <h2 className="section__title different" data-aos="fade-left">Skills 📜</h2>
+        <div className="techsection" data-aos="fade-right">
           <div>
             <SiJavascript />
             <h5>Javascript</h5>

@@ -8,14 +8,14 @@ function Github() {
   return (
     <>
     <Row  style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h2 className="section__title" data-aos="fade-right">
+      <h2 className="section__title" data-aos="fade-left">
 
         <br />
         <br />
         
           Days I  <span className="different">Code 🖥️</span>
         </h2>
-      
+      <div data-aos="fade-right">
       <GitHubCalendar
         username="jhakailash"
         blockSize={15}
@@ -23,6 +23,9 @@ function Github() {
         color="green"
         fontSize={18}
       />
+
+      </div>
+      
    </Row>
 
     </>

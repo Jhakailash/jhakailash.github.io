@@ -20,7 +20,7 @@ export const Projects = () => {
       <br />
       <br />
       
-        <h2 className="section__title different">Projects 📄</h2>
+        <h2 className="section__title different" data-aos="fade-left">Projects 📄</h2>
         <p className="section__title different">recently worked on:-</p>
         <div className="allProjects">
 

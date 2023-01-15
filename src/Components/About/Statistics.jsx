@@ -7,18 +7,18 @@ export const Statistics = () => {
   return (
     <>
     
-      <div className="section main" data-aos="fade-right">
+      <div className="section main">
       
         <br />
         <br />
         <br />
         <br />
                   
-        <h2 className="section__title" data-aos="fade-right">
+        <h2 className="section__title" data-aos="fade-left">
           My <span className="different">Statistics 💻</span>
 
 
-          <div className="gitStatistics_main">
+          <div className="gitStatistics_main" data-aos="fade-right">
 
           <div className="gitStatistics">      
                   
@@ -48,7 +48,7 @@ export const Statistics = () => {
 
 
         </h2>
-        <div className="my_statistics">
+        <div className="my_statistics" data-aos="fade-right">
           <div>
             
             <h4 className="statistics_number">1200+</h4>
