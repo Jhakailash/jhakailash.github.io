@@ -9,7 +9,9 @@
   margin: auto;
   margin-bottom: 10px;
   cursor: pointer;
+  
 }
+
 
 .contactcontainer svg {
   font-size: 3em;
@@ -19,7 +21,7 @@
   padding: 5px;
   border-radius: 20%;
   background-color: transparent;
- 
+  
 }
 
 .emailsender{
@@ -191,4 +193,47 @@ p{
     width: 100%;
   }
   
+}
+
+@media all and ((min-width: 670px) and (max-width: 1000px) ){
+  .contactcontainer svg {
+    font-size: 2.8em;
+  }
+
+  .contactcontainer{
+    width: 70%;
+   
+  }
+
+  .mailNumber{
+    /* justify-content: space-around; */
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mailNumber div{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .contactMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .iconsCont{
+    width: 90%
+  }
+
+  .contactcontainer svg:hover {
+    font-size: 5rem;
+  }
+  .contact-inputs{
+    width: 70%;
+  }
+
 }

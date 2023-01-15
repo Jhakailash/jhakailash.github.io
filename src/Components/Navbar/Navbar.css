@@ -40,3 +40,47 @@
     margin-left: 3.6em;
   }
 }
+
+@media all and ((min-width: 820px) and (max-width: 1000px) ){
+  .nav__list {
+    margin-right: 1.5em;
+    display: flex;
+    
+  }
+  .nav__list-item {
+    margin-left: 3.5em;
+    
+  }
+  .app .nav__hamburger {
+    display: none;
+    
+  }
+  .nav__theme {
+    margin-top: 0.4em;
+    
+  } 
+
+  
+}
+@media all and ((min-width: 601px) and (max-width: 818px) ){
+  .nav__list {
+    margin-left: 2.6em;
+    display: flex;
+    position: fixed;
+    width: 70%;
+    
+    
+  }
+  .nav__list-item {
+    margin-left: 2.0em;
+    
+  }
+  .app .nav__hamburger {
+    display: none;
+    
+  }
+  .nav__theme {
+    margin-top: 0.4em;
+  } 
+
+}
