@@ -11,7 +11,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import { Statistics } from "./Components/About/Statistics";
-import Particles from "./Components/particles/Particles";
+
 
 
 
@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <>
-    <Particles />
+    
     <div id="top" className={`${themename} app`}>
       
       <section id="#home" class="home"> 

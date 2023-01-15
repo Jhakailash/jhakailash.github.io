@@ -10,6 +10,10 @@
   /* --clr-bg: #fcfcfc; */
   --clr-bg:white;
   --clr-bg-alt: #fff;
+  --clr-primary-teckstack:black;
+  --clr-primary-timeline:black;
+  --clr-primary-statics:black;
+  --clr-primary-project:black;
   /* --clr-fg: #555; */
   --clr-fg: rgb(23, 133, 47);
   --clr-fg-alt: rgb(135, 40, 148);
@@ -18,12 +22,16 @@
 }
 
 .dark {
-  /* --clr-bg: #232e3e; */
-  --clr-bg: #01080f;
+  /* --clr-bg: #111c2c; */
+  --clr-bg:  #01080f;
   --clr-bg-alt: #0e111f;
   --clr-fg: #95959b;
   --clr-fg-alt: #c1c1e4;
   --clr-primary: #8395d6;
+  --clr-primary-teckstack:#c1c1e4;
+  --clr-primary-timeline:#c1c1e4;
+  --clr-primary-statics:#c1c1e4;
+  --clr-primary-project:#c1c1e4;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

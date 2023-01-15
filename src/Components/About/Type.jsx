@@ -11,7 +11,6 @@ export const Type = () => {
 
             "Full Stack Web Developer",
              
-
             ],
 
         

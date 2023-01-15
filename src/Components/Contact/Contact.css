@@ -9,33 +9,26 @@
   margin: auto;
   margin-bottom: 10px;
   cursor: pointer;
-  /* background-color: rgb(29, 4, 54); */
- 
 }
 
 .contactcontainer svg {
   font-size: 3em;
   transition: all 0.5s ease-in-out 0s;
   color: var(--clr-primary);
-  /* border: 3px solid var(--clr-primary); */
   border: 1px solid rgb(25, 122, 201);
   padding: 5px;
   border-radius: 20%;
-  background-color: white;
-  /* color: white; */
+  background-color: transparent;
+ 
 }
+
 .emailsender{
-  /* border: 2px solid red; */
   text-align: center;
   margin-top: 30px;
-  /* height: 10px; */
-  /* display: flex; */
   gap: 30px;
-  /* justify-content: center; */
-
 }
+
 .contact-inputs{
-  /* border: 2px solid green; */
   display: flex;
   width: 50%;
   justify-content: space-between;
@@ -43,10 +36,9 @@
   display: block;
   margin: auto;
   margin-top: 20px;
-  /* align-items: center; */
 }
-.input1{
 
+.input1{
   border: 1px solid #2978b5;
   text-align: center;
   text-align: center;
@@ -56,60 +48,43 @@
   display: flex;
   margin-top: 5px;
   border-radius: 10px;
-  /* display: inline-block; */
-
 }
-.input2{
 
+.input2{
   border: 1px solid #2978b5;
   text-align: center;
   border-radius: 10px;
-  /* text-align: center; */
   height: 30px;
   width: 100%;
   display: flex;
-  /* display: flex; */
-  /* display: inline-block; */
   gap: 20px;
   justify-content: center;
 }
-.input3{
 
+.input3{
   border: 1px solid #2978b5;
-  /* text-align: center; */
   text-align: center;
   border-radius: 10px;
   display: flex;
   width: 100%;
   align-items: center;
   padding: 25px;
-  height: 150px;
-  /* display: inline-block; */
-  
+  height: 150px;  
 }
-.input4{
 
+.input4{
   border: 1px solid #2978b5;
-  /* align-items: center; */
   display: flex;
   width: 100%;
   margin: auto;
   border-radius: 10px;
-  justify-content: center;
-  /* background-color: #2978b5; */
-  /* text-align: center; */
-  /* display: inline-block; */
-
-  
+  justify-content: center;  
 }
 
 .input4:hover{
  background-color: #2978b5;
- color: black;
-  
+ color: black;  
 }
-
-
 
 .mailNumber .email {
   font-size: 2.5em;
@@ -214,7 +189,6 @@ p{
   }
   .contact-inputs{
     width: 100%;
-    /* border: 1px solid red; */
   }
   
 }

@@ -5,27 +5,15 @@
 
 .mainsection > :nth-child(1) {
   margin-bottom: 2em;
-  /* background-color: blue; */
- 
 }
 
 .vertical-timeline-element-subtitle {
   margin-top: 0.5em;
   font-size: 1em;
   color: rgb(40, 162, 40);
-  
-  
 }
 
 .vertical-timeline-element-title {
   font-size: 1.1em;
   color: var(--clr-primary);
-  
 }
-
-
-
-
-
-
-

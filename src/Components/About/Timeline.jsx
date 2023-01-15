@@ -42,28 +42,24 @@ export const Timeline = () => {
           <VerticalTimelineElement
             date={"Dec 2021 - Present"}
             contentStyle={{
-              // boxShadow: `var(--shadow)`,
-              // border: "3px solid var(--clr-primary)",
-              borderRadius:"80px",
-              // backgroundColor: `var(--clr-bg)`,
-              backgroundColor: "white",
-              color: "black",
-  
+              borderRadius:"80px",              
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",  
+              color: "var(--clr-primary-timeline)",
               textAlign: "center",
-              // color: `var(--clr-fg-alt)`,
             }}
+
             contentArrowStyle={{
               borderRight: "18px solid  var(--clr-primary)",
-              backgroundColor: "white",
-              
+              backgroundColor: "transparent",
             }}
+
             iconStyle={{
-              
-              // border: ` 3px solid var(--clr-primary)`,
-              // backgroundColor: `var(--clr-bg)`,
-              backgroundColor: "white",
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
               color: "rgb(40, 162, 40)",
             }}
+
             icon={<SchoolIcon />}
           >
             <h3
@@ -89,24 +85,21 @@ export const Timeline = () => {
             className="vertical-timeline-element--work"
             date={"March 2017 - March 2018"}
             contentStyle={{
-              // boxShadow: `var(--shadow)`,
               borderRadius:"80px",
-              // border: "3px solid var(--clr-primary)",
-              // backgroundColor: `var(--clr-bg)`,
-              backgroundColor: "white",
-              color: "black",
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
+              color: "var(--clr-primary-timeline)",
               textAlign: "center",
-              // color: `var(--clr-fg-alt)`,
             }}
+
             contentArrowStyle={{
               borderRight: "18px solid  var(--clr-primary)",
-              backgroundColor: "white",
+              backgroundColor: "transparent",
             }}
+
             iconStyle={{
-              // border: ` 3px solid var(--clr-primary)`,
-              // backgroundColor: `var(--clr-bg)`,
-              // color: `var(--clr-primary)`,
-              backgroundColor: "white",
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
               color: "rgb(40, 162, 40)",
             }}
             icon={<WorkIcon />}
@@ -140,26 +133,24 @@ export const Timeline = () => {
             className="vertical-timeline-element--work"
             date={"Apr 2012 - Apr 2015"}
             contentStyle={{
-              // boxShadow: `var(--shadow)`,
               borderRadius:"80px",
-              // border: "3px solid var(--clr-primary)",
-              // backgroundColor: `var(--clr-bg)`,
-              backgroundColor: "white",
-              color: "black",
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
+              color: "var(--clr-primary-timeline)",
               textAlign: "center",
-              // color: `var(--clr-fg-alt)`,
             }}
+
             contentArrowStyle={{
               borderRight: "18px solid  var(--clr-primary)",
-              backgroundColor: "white",
+              backgroundColor: "transparent",
             }}
+
             iconStyle={{
-              // border: ` 3px solid var(--clr-primary)`,
-              // backgroundColor: `var(--clr-bg)`,
-              // color: `var(--clr-primary)`,
-              backgroundColor: "white",
+              backgroundColor: "transparent",
+              boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
               color: "rgb(40, 162, 40)",
             }}
+            
             icon={<SchoolIcon />}
           >
             <h3

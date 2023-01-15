@@ -15,7 +15,7 @@
   width: 11%;
   height: 17vh;
   max-height: 140px;
-  /* box-shadow: var(--shadow); */
+  box-shadow: var(--shadow);
   z-index: 1;
   border-radius: 20px;
   margin: 2.5%;
@@ -25,16 +25,14 @@
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease 0s;
-  /* border: 2px solid var(--clr-primary); */
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-  background-color:white;
-  color: black;
+  background-color: transparent;
+  color: var(--clr-primary-teckstack);
 }
 
 .techsection > div:hover {
-  /* background-color: var(--clr-bg); */
+  background-color: var(--clr-bg);
   border: 2px solid var(--clr-primary);
-  /* overflow: hidden; */
   transform: scale(1.1);
   border: 2px solid green;
   border: none;
