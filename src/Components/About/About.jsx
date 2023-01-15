@@ -13,7 +13,7 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div className="about center" >
+      <div className="about center">
 
         <h1 data-aos="fade-right" className="mobileHead">
 

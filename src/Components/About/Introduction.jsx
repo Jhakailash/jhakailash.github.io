@@ -14,24 +14,24 @@ export const Introduction = () => {
     <>
       <section id="#about">
 
-        <div className="section" >
+        <div className="section">
 
         <br />
         <br />
         <br />
         <br />
                 
-          <h2 className="section__title" data-aos="fade-left">
+          <h2 className="section__title">
 
             About <span className="different">Me 👨‍💻</span>
             
           </h2>
           <div className={"introduction " + themename}>
-            <div className="introduction_logocontainer" data-aos="fade-right">
-              <img src={profilePic} alt="Images" />
+            <div className="introduction_logocontainer">
+              <img src={profilePic} alt="Images"  data-aos="fade-right" />
             </div>
 
-            <div className="introduction_datacontainer" data-aos="fade-right">
+            <div className="introduction_datacontainer"  data-aos="fade-right">
               <h4>
                 Hi Everyone, My name is{" "}
                 <span className="different">Kailash Jha </span> and I am from{" "}

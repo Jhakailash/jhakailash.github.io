@@ -14,7 +14,7 @@ export const Statistics = () => {
         <br />
         <br />
                   
-        <h2 className="section__title" data-aos="fade-left">
+        <h2 className="section__title">
           My <span className="different">Statistics 💻</span>
 
 

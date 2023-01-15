@@ -53,12 +53,13 @@
 @media (max-width: 600px) {
   .techsection {
     height: 120vh;
+    margin: auto;
   }
   
   .techsection > div {
     width: 40%;
-    margin-right: 5%;
-    margin-bottom: 2%;
+    margin-right: 7%;
+    margin-bottom: 1%;
     height: 18vh;
   }
 

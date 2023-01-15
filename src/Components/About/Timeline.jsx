@@ -31,15 +31,15 @@ export const Timeline = () => {
 
   return (
     <>
-      <div className="section mainsection" >
+      <div className="section mainsection">
 
-        <h2 className="section__title" data-aos="fade-left">
+        <h2 className="section__title">
           My <span className="different">Timeline 🕙</span>
         </h2>
 
         <VerticalTimeline lineColor={linecolor}>
           
-          <VerticalTimelineElement 
+          <VerticalTimelineElement
             date={"Dec 2021 - Present"}
             contentStyle={{
               borderRadius:"80px",              

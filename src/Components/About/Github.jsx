@@ -8,7 +8,7 @@ function Github() {
   return (
     <>
     <Row  style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h2 className="section__title" data-aos="fade-left">
+      <h2 className="section__title">
 
         <br />
         <br />
